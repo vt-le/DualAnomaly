@@ -1,5 +1,4 @@
 # DualAnomaly
-DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Robust Video Anomaly Detection
 This is the code for **[DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Robust Video Anomaly Detection]()**.
  
 ## Related Works
