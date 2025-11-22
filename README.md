@@ -26,13 +26,12 @@ Clone this repo:
     git clone https://github.com/vt-le/DualAnomaly.git
     cd DualAnomaly/
 
-We evaluate `HSTforU` on:
+We evaluate `DualAnomaly` on:
 | Dataset | Link                                                                                  |
 |--|---------------------------------------------------------------------------------------|
 | UCSD Ped2 | [![Google drive](https://badgen.net/static/Homepage/Ped2/blue)](http://www.svcl.ucsd.edu/projects/anomaly/dataset.html) |
 | CUHK Avenue | [![Google drive](https://badgen.net/badge/Homepage/Avenue/cyan)](http://www.cse.cuhk.edu.hk/leojia/projects/detectabnormal/dataset.html) |
 | ShanghaiTech | [![Google drive](https://badgen.net/badge/Homepage/ShanghaiTech/green?)](https://svip-lab.github.io/dataset/campus_dataset.html) |
-| Drone-Anomaly | [![Google drive](https://badgen.net/badge/Homepage/Drone-Anomaly/yellow)](https://github.com/Jin-Pu/Drone-Anomaly)    |
 
 ## Training
 To train `DualAnomaly` on a dataset, run:
