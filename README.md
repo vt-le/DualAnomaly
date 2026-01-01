@@ -1,17 +1,15 @@
 # DualAnomaly
-This is the code for **[DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Robust Video Anomaly Detection]()**.
+This is the code for **[DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Robust Video Anomaly Detection](https://github.com/vt-le/DualAnomaly)**.
  
 ## Related Works
+> **InterAnomaly**: See [Hierarchical Spatio-Temporal Modality Integration: A Novel Approach to Video Anomaly Detection](https://github.com/vt-le/InterAnomaly).
+
 > **HSTforU**: See [HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net](https://github.com/vt-le/HSTforU).
 
 > **ASTNet**: See [Attention-based Residual Autoencoder for Video Anomaly Detection](https://vt-le.github.io/astnet/).
 
-<a href="static/img/shanghai/shanghai_curve_full.gif" target="_blank">
-    <image style="border: 2px solid rgb(201, 196, 196);" src="static/images/03_0031.gif" width="100%">
-</a>
-
 ## Updates
-* 
+* The source code to reproduce the results of the proposed InterAnomaly model will be made publicly available upon acceptance
 
 ## Setup
 The code can be run under any environment with Python 3.7 and above.
@@ -61,8 +59,8 @@ To evaluate a pretrained `DualAnomaly` on a dataset, run:
 
 ```bash
 python test.py \
-    --cfg config/scripts/ped2/ped2_pvt2_hst.yaml \
-    --model-file output/DualAnomaly/ped2_pvt2_hst/ckpt_ped2.pth
+    --cfg config/scripts/ped2/dualanomaly_ped2.yaml \
+    --model-file output/DualAnomaly/ped2/ckpt_ped2.pth
 ```
 <!-- 
 ## Training from scratch
@@ -78,7 +76,7 @@ python -m torch.distributed.launch \
 For example, to train `DualAnomaly` on Ped2:
 
 ```bash
-python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 train.py --cfg configs/scripts/ped2/ped2_pvt2_hst.yaml 
+python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 train.py --cfg configs/scripts/ped2/dualanomaly_ped2.yaml 
 ``` 
 -->
 ## Configuration
@@ -89,7 +87,7 @@ python -m torch.distributed.launch --nproc_per_node 4 --master_port 12345 train.
 ## Citing
 If you find our work useful, please consider citing:
 ```BibTeX
-﻿@Article{le2025dualanomaly,
+﻿@Article{le2026dualanomaly,
 author={Le, Viet-Tuan
 and Kim, Yong-Guk},
 title={DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Robust Video Anomaly Detection},
@@ -97,7 +95,7 @@ title={DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Robust 
 ```
 
 ## Contact
-For any question, please file an [issue](https://github.com/vt-le/HSTforU/issues) or contact:
+For any question, please file an [issue](https://github.com/vt-le/DualAnomaly/issues) or contact:
 
     Viet-Tuan Le: vt-le@outlook.com
 
