@@ -1,0 +1,41 @@
+########################
+### Avenue  Dataset ###
+#######################
+
+GPUS: (0,)
+PRINT_FREQ: 120
+
+DATA:
+  BATCH_SIZE: 64
+  IMG_SIZE: [32, 32]
+  DATASET: 'avenue'
+  NUM_WORKERS: 6
+
+MODEL:
+  NAME: dual_anomaly
+  PRETRAINED: 'models/pretrained/pvt_v2_b2.pth'
+  CONCATENATED_LAYERS: [0,1,2,3]
+  NUM_FRAMES: 4
+
+UNET:
+  IN_CHANNELS: 2
+  OUT_CHANNELS: 2
+  CHANNELS: 64
+  PRE_TRAINED: ''
+  ATTN_RESOLUTION: [8, 16]
+
+TRAIN:
+  EPOCHS: 120
+  WARMUP_EPOCHS: 6
+  BASE_LR: 5e-4           # default 5e-4=0.000 5
+  WARMUP_LR: 5e-7         # default 5e-7=0.000 0005
+  MIN_LR: 5e-6            # default 5e-6=0.000 005
+  EARLY_STOPPING: 10
+
+TEST:
+  FLOW_WEIGHT: 0.1
+  FRAME_WEIGHT: 1.0
+
+##############################################################
+
+##############################################################
