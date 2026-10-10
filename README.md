@@ -1,8 +1,8 @@
 # DualAnomaly
-This is the code for **[DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Robust Video Anomaly Detection](https://github.com/vt-le/DualAnomaly)**.
+This is the code for **[DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Video Anomaly Detection](https://github.com/vt-le/DualAnomaly)**.
  
 ## Related Works
-> **InterAnomaly**: See [Hierarchical Spatio-Temporal Modality Integration: A Novel Approach to Video Anomaly Detection](https://github.com/vt-le/InterAnomaly).
+> **CrossAnomaly**: See [Reconstruction-Guided Cross-Modal Learning for Video Anomaly Detection](https://github.com/vt-le/CrossAnomaly).
 
 > **HSTforU**: See [HSTforU: Anomaly Detection in Aerial and Ground-based Videos with Hierarchical Spatio-Temporal Transformer for U-net](https://github.com/vt-le/HSTforU).
 
