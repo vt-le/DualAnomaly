@@ -42,9 +42,9 @@ Please first download the pre-trained model
 
 | Dataset | Pretrained Model                                                                                  |
 |--|---------------------------------------------------------------------------------------|
-| UCSD Ped2 | [![Google drive](https://badgen.net/static/Link/Ped2/blue?icon=chrome)](https://drive.google.com) |
-| CUHK Avenue | [![Google drive](https://badgen.net/badge/Link/Avenue/blue?icon=chrome)](https://drive.google.com) |
-| ShanghaiTech | [![Google drive](https://badgen.net/badge/Link/ShanghaiTech/blue?icon=chrome)](https://drive.google.com) |
+| UCSD Ped2 | [![Google drive](https://badgen.net/static/Link/Ped2/blue?icon=chrome)](https://drive.google.com/file/d/1vQZymG87lkx4TKTDw904Uq3jG2DPvma9/view?usp=sharing) |
+| CUHK Avenue | [![Google drive](https://badgen.net/badge/Link/Avenue/blue?icon=chrome)](https://drive.google.com/file/d/1A-8FfKgrvtGdIN27Z876U6YVLj73rqNg/view?usp=drive_link) |
+| ShanghaiTech | [![Google drive](https://badgen.net/badge/Link/ShanghaiTech/blue?icon=chrome)](https://drive.google.com/file/d/18SE6brUhng9u5Qtd12SnsHJsdFiIr9D2/view?usp=sharing) |
 
 To evaluate a pretrained `DualAnomaly` on a dataset, run:
 
@@ -90,7 +90,7 @@ If you find our work useful, please consider citing:
 ﻿@Article{le2026dualanomaly,
 author={Le, Viet-Tuan
 and Kim, Yong-Guk},
-title={DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Robust Video Anomaly Detection},
+title={DualAnomaly: A Dual Spatio-Temporal Cross-Attention Framework for Video Anomaly Detection},
 }
 ```
 
