@@ -9,7 +9,7 @@ This is the code for **[DualAnomaly: A Dual Spatio-Temporal Cross-Attention Fram
 > **ASTNet**: See [Attention-based Residual Autoencoder for Video Anomaly Detection](https://vt-le.github.io/astnet/).
 
 ## Updates
-* The source code to reproduce the results of the proposed InterAnomaly model will be made publicly available upon acceptance
+* We have released the code and model checkpoints for **DualAnomaly**.
 
 ## Setup
 The code can be run under any environment with Python 3.7 and above.
